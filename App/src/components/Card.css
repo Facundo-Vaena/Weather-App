@@ -1,0 +1,65 @@
+.card {
+  
+  border-radius: 5px;
+  /* background: rgb(94, 94, 221); */
+  background: #ffffff;
+  padding-left:75px;
+  padding-right:75px;
+  margin:2%;
+
+}
+
+.cardTitle{
+  color:black;
+  
+}
+
+.closeCard{
+  background: tomato;
+  border-radius: 15%;
+}
+.closeCard:hover{
+  background: rgb(226, 75, 49);
+  cursor: pointer;
+}
+.cardCloseTitle{
+  display: flex;
+  /* gap:10px;  */
+  justify-content: space-evenly;
+  margin-left:-35px;
+  margin-top:30px;
+  font-family: bio-sans, sans-serif;
+font-style: normal;
+font-weight: 200;
+}
+
+.cardNavLink{
+  text-decoration: none;
+}
+
+
+.card-body{
+  margin-left:15px;
+  margin-right:5px;
+  font-family: bio-sans, sans-serif;
+font-style: normal;
+font-weight: 300;
+}
+.cardValue{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+/* #closeIcon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+  margin-top: 8px;
+} */
+
+/* .card-body {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+} */
